@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.money-dashboard-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .money-dashboard-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.your-balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-right: 15px;
+  padding: 16px;
+  margin-top: 10px;
+}
+
+.your-income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  width: 100%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.your-expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  width: 100%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.balance-image {
+  width: 120px;
+}
+
+.balance-display-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.your-balance-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7e858e;
+  font-weight: 400;
+}
+
+.balance-amount {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7e858e;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.each-transactionItem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10px;
+  margin-right: 20px;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  background-color: transparent;
+  list-style-type: none;
+}
+
+.transaction-delete-button {
+  background-color: transparent;
+  border: none;
+  width: 10%;
+}
+
+.delete-image {
+  width: 40px;
+}
+
+.transaction-text {
+  width: 30%;
+}
